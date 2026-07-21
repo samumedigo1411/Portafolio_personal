@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+  background-color: #c8d0d3;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* Estilos para los encabezados */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem; /* Ajustado para dispositivos pequeños */
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+
+h2 {
+  font-size: 2rem; /* Ajustado para dispositivos pequeños */
+  font-weight: normal;
+  color: #2c2c2c;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.5rem; /* Ajustado para dispositivos pequeños */
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.2rem;
+  color: #0000009d;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .line-1 {
+    margin-top: 30px;
+  }
+
+  .who-am-i,
+  .my-skills {
+    max-width: 100%;
+    margin-top: 20px;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .technical-skills img,
+  .power-skills img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .contact-info img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .email-container,
+  .phone-container,
+  .location-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
